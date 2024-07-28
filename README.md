@@ -5,7 +5,7 @@
 
 Перейдите по  [ссылке](https://lourtne.github.io/Blanchard/) на сайт.
 
-> Используется HTML, CSS, JavScript
+> Используется чистые HTML и CSS.
 
 ## Информация о проекте
 
