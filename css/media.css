@@ -141,6 +141,10 @@
         align-items: center;
     }
 
+    .button {
+        padding: 13px 40px
+    }
+
     .vk {
         width: 60px;
         height: 60px;
@@ -167,6 +171,11 @@
     .preview__text {
         margin-bottom: 133px;
         max-width: 83%;
+    }
+
+    .preview__title {
+        font-size: 72px;
+        max-width: 100%;
     }
 
     /* gallery */
@@ -238,9 +247,13 @@
     .input {
         width: 325px;
     }
+
+    .button {
+        padding: 13px 28px;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 592px) {
     .preview__title {
         font-size: 59px;
     }
@@ -291,6 +304,7 @@
     }
 
     .preview__title {
+        max-width: 100%;
         margin-bottom: 11px;
         text-align: center;
         font-size: 32px;
@@ -367,7 +381,7 @@
         gap: 2px;
     }
 
-    .catalog__picture {
+    .catalog__img {
         width: 100%;
         max-height: 180px;
         object-fit: cover;
@@ -382,7 +396,7 @@
     }
 
     .catalog__item {
-        gap: 24px;
+        gap: 22px;
     }
 
     .catalog__artist {
