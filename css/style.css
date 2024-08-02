@@ -622,7 +622,7 @@ a {
 }
 
 .input {
-    padding-left: 10px;
+    padding-left: 24px;
     border: 1px solid #333;
     border-radius: 100px;
     width: 270px;
@@ -632,7 +632,8 @@ a {
 
 .input:hover,
 .input:focus {
-    background: #ececec;;
+    background: #ececec;
+    outline: none;
 }
 
 .button {
