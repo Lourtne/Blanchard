@@ -30,7 +30,7 @@
 
     .preview__title {
         margin-bottom: 20px;
-        max-width: 100%;
+        max-width: 85%;
     }
 
     .preview__text {
@@ -237,6 +237,12 @@
 
     .input {
         width: 325px;
+    }
+}
+
+@media (max-width: 768px) {
+    .preview__title {
+        font-size: 59px;
     }
 }
 
