@@ -646,7 +646,7 @@ a {
     cursor: pointer;
     color: #9d5cd0;
     background: var(--background-light);
-    transition: outline .3s ease-in-out, outline-offset .3s ease-in-out;
+    transition: color .3s ease-in-out, background .3s ease-in-out;
 }
 
 .button-on-small-screen {
@@ -660,13 +660,13 @@ a {
     text-align: center;
     color: #9d5cd0;
     background: var(--background-light);
-    transition: outline .3s ease-in-out, outline-offset .3s ease-in-out;
+    transition: color .3s ease-in-out, background .3s ease-in-out;
 }
 
 .button-on-small-screen:hover,
 .button-on-small-screen:focus {
-    outline: solid #d1a9f0 3px;
-    outline-offset: 3px;
+    color: var(--text-color-light);
+    background: #7943A4;
 }
 
 .button-on-small-screen:active {
@@ -675,12 +675,12 @@ a {
 
 .button:hover,
 .button:focus {
-    outline: solid #d1a9f0 3px;
-    outline-offset: 3px;
+    color: var(--text-color-light);
+    background: #ad75db;
 }
 
 .button:active {
-    outline-offset: 6px;
+    background: #8229cb;
 }
 
 .contact__title {
